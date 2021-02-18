@@ -1,9 +1,10 @@
 {
   "name": "nofood.api",
   "version": "1.0.0",
-  "description": "Api feita em node js para utilização do nosso APlicativo noFood",
-  "main": "index.js",
+  "description": "Api feita em node js para utilização do nosso Aplicativo noFood",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arthur Soares",
