@@ -15,7 +15,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
-// Configurando a conexão com banco de dados mongodb
+// Configurando a conexão com banco de dados 
 mongoose.connect(variables.Database.conection, { useNewUrlParser:true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false})
 
 //configurar rotas
