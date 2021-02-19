@@ -6,6 +6,8 @@ const variable = require('../bin/configuration/variable')
 //routers
 const categoriaRouter = require('../routes/categoria-router')
 const produtoRouter = require('../routes/produto-router')
+const usuarioRouter = require('../routes/usuario-router')
+
 const variables = require('../bin/configuration/variable')
 
 //Criando/Invocando a API-server web do Express
@@ -21,6 +23,7 @@ mongoose.connect(variables.Database.conection, { useNewUrlParser:true, useUnifie
 //configurar rotas
 app.use('/api/categoria', categoriaRouter)
 app.use('/api/produto', produtoRouter)
+app.use('/api/usuario', usuarioRouter)
 
 
 // expoprtando a nossa APi(variável app)
