@@ -2,7 +2,7 @@ require('../models/usuario-model')
 const base = require('../bin/base/repository-base')
 const md5 = require('md5')
 
-
+// classe
 class usuarioRepository{
 
     constructor(){

@@ -4,6 +4,8 @@ const repository = require('../repositories/usuario-repository')
 
 const _repo =  new repository()
 
+// classe
+
 function usuarioController(){
 
 }
